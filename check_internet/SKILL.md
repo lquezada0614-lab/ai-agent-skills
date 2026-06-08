@@ -1,4 +1,9 @@
-# check_internet
+---
+name: check-internet
+description: Use this tool to test if the system has active internet access.
+---
+
+# check-internet
 
 Use this tool whenever the user asks to check, test, or verify if the AI or system has active internet access. This tool fetches data from a public API.
 
