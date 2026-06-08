@@ -12,7 +12,7 @@ Use this tool whenever the user asks to check, test, or verify if the AI or syst
 ```javascript
 (async () => {
     try {
-        const res = await fetch('[https://api.ipify.org?format=json](https://api.ipify.org?format=json)');
+        const res = await fetch('https://api.ipify.org?format=json');
         const data = await res.json();
         return "Internet status: Connected. Data: " + JSON.stringify(data);
     } catch (err) {
